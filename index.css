@@ -42,3 +42,20 @@
     margin-top: -85px;
 
 }
+.formulario__label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.9s;
+}
+
+.formulario__input:focus {
+    border-color: rgb(0, 110, 255);
+    outline: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.formulario__input+.formulario__label {
+    margin-top: -135px; 
+}
